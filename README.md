@@ -39,36 +39,43 @@ A comprehensive web application for managing patient records, doctor assignments
 
 ## 🛠️ Project Structure
 
+
 HospitalWebApp/
 ├── src/
-│ ├── dao/
-│ │ ├── PatientDAO.java
-│ │ ├── DoctorDAO.java
-│ │ └── AppointmentDAO.java
-│ ├── model/
-│ │ ├── Patient.java
-│ │ ├── Doctor.java
-│ │ └── Appointment.java
-│ └── servlet/
-│ ├── AddPatientServlet.java
-│ ├── UpdatePatientServlet.java
-│ ├── DeletePatientServlet.java
-│ ├── ViewPatientsServlet.java
-│ ├── AssignDoctorServlet.java
-│ ├── AppointmentServlet.java
-│ └── ReportServlet.java
+│   ├── dao/
+│   │   ├── PatientDAO.java
+│   │   ├── DoctorDAO.java
+│   │   └── AppointmentDAO.java
+│   ├── model/
+│   │   ├── Patient.java
+│   │   ├── Doctor.java
+│   │   └── Appointment.java
+│   └── servlet/
+│       ├── AddPatientServlet.java
+│       ├── UpdatePatientServlet.java
+│       ├── DeletePatientServlet.java
+│       ├── ViewPatientsServlet.java
+│       ├── AssignDoctorServlet.java
+│       ├── AppointmentServlet.java
+│       └── ReportServlet.java
 ├── WebContent/
-│ ├── index.jsp
-│ ├── add_patient.jsp
-│ ├── update_patient.jsp
-│ ├── delete_patient.jsp
-│ ├── view_patients.jsp
-│ ├── assign_doctor.jsp
-│ ├── appointments.jsp
-│ ├── report_form.jsp
-│ └── report_result.jsp
-├── WEB-INF/
-│ └── web.xml
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── validation.js
+│   ├── index.jsp
+│   ├── add_patient.jsp
+│   ├── update_patient.jsp
+│   ├── delete_patient.jsp
+│   ├── view_patients.jsp
+│   ├── assign_doctor.jsp
+│   ├── appointments.jsp
+│   ├── report_form.jsp
+│   └── report_result.jsp
+├── WebContent/WEB-INF/
+│   ├── web.xml
+│   └── lib/
+│       └── mysql-connector-java-x.x.xx.jar
 └── README.md
 
 ## 🗄️ Database Setup
@@ -78,6 +85,8 @@ HospitalWebApp/
 ```sql
 CREATE DATABASE IF NOT EXISTS hospital_management;
 USE hospital_management;
+
+
 ### 2. Create Tables
 sql
 Copy
