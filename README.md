@@ -2,9 +2,9 @@
 
 **Subject Name**: Advanced Java  
 **Subject Code**: BCS613D  
-**Name**: Samay Shetty  
-**USN**: 4AL22CS143  
-**Sem/Section**: VI/C
+**Name**: Pallavi  
+**USN**: 4AL22CS098  
+**Sem/Section**: VI/B
 
 A comprehensive web application for managing hospital operations including patient records, doctor management, appointments, and medical reports built with JSP, Servlets, and MySQL following MVC architecture principles.
 
@@ -167,7 +167,7 @@ CREATE TABLE IF NOT EXISTS medical_records (
 ```sql
 -- Sample Patients
 INSERT INTO patients VALUES 
-(1001, 'Samay', 'Shetty', '1995-05-15', 'Male', '9876543210', 'samay@email.com', 'Mangalore, Karnataka', '9876543211', 'O+', NOW()),
+(1001, 'pallavi', 'Shetty', '1995-05-15', 'Female', '9876543210', 'shetty@email.com', 'Mangalore, Karnataka', '9876543211', 'O+', NOW()),
 (1002, 'Priya', 'Sharma', '1988-08-22', 'Female', '9876543212', 'priya@email.com', 'Bangalore, Karnataka', '9876543213', 'A+', NOW()),
 (1003, 'Rajesh', 'Kumar', '1975-12-10', 'Male', '9876543214', 'rajesh@email.com', 'Mumbai, Maharashtra', '9876543215', 'B+', NOW());
 
@@ -286,10 +286,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-**Samay Shetty**  
-- Email: samay.shetty@email.com  
-- USN: 4AL22CS143
-- GitHub: [your-github-username]
+
 
 ## 🙏 Acknowledgments
 
