@@ -266,11 +266,28 @@ Update the following properties in your DAO classes:
 
 ## 📱 Usage
 
-1. **Admin Login**: Access the admin panel to manage doctors and system settings
 2. **Patient Registration**: Register new patients with complete medical information
 3. **Appointment Booking**: Schedule appointments with available doctors
 4. **Medical Records**: Maintain and update patient medical history
 5. **Generate Reports**: Create various analytical reports for management
+
+6. ## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/index.png)
+*Main dashboard showing various option*
+
+### Patient regristration
+![Patient Registration](screenshots/add.png)
+*Patient registration form with comprehensive details*
+
+![Patient List](screenshots/list.png)
+*Complete employee directory with search and filter options*
+
+### Reports Dashboard
+![Reports Dashboard](screenshots/report.png)
+*Comprehensive patient data based on date and doctor*
+
 
 ## 🤝 Contributing
 
@@ -283,9 +300,6 @@ Update the following properties in your DAO classes:
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
 
 
 ## 🙏 Acknowledgments
